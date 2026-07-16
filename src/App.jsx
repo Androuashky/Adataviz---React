@@ -160,7 +160,7 @@ const App = () => {
             filtrage.map((item) => (
               <Card key={item.rang} item={item} />
             ))
-            ) : (
+            ) : (    
             <p className="aucun-resultat">
               😔 Aucun livre ne correspond à votre recherche.
             </p>

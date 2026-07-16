@@ -385,6 +385,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1em;
+  align-items: start;
 }
 
 .aucun-resultat {
@@ -406,7 +407,7 @@ body {
   transition: transform 0.15s ease, box-shadow 0.15s ease;
   display:flex;
   flex-direction: column;
-  height: 100%;
+  min-height: 20rem;
 }
 
 .top100 article:hover {
@@ -590,16 +591,12 @@ body {
   }
 
   .filtre1 {
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     gap: 0.6em;
     margin-top: 0.5em;
     position: static;
-  }
-
-  .filtre-titre {
-    width: 100%;
   }
 
   .filtre1 label {
@@ -612,6 +609,7 @@ body {
   .top100 {
   width: 100%;
   grid-template-columns: 1fr;
+  gap: 2em;
   }
 
   .BD {
