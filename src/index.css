@@ -407,7 +407,7 @@ body {
   transition: transform 0.15s ease, box-shadow 0.15s ease;
   display:flex;
   flex-direction: column;
-  min-height: 20rem;
+  min-height: 22rem;
 }
 
 .top100 article:hover {
@@ -610,6 +610,7 @@ body {
   width: 100%;
   grid-template-columns: 1fr;
   gap: 2em;
+  
   }
 
   .BD {
