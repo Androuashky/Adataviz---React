@@ -60,7 +60,7 @@ const App = () => {
 
           <div className="bloc1image">
             <img className="carte-image" src="/image/naruto.jpg"/>
-            <img  className="image-milieu" src="/image/l'arabe du futur.jpg"/>
+            <img  className="image-milieu" src="/image/larabe-du-futur"/>
             <img className="carte-image" src="/image/onepiece.jpg"/>
           </div>
         </section>
