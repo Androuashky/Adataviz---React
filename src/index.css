@@ -1,11 +1,11 @@
 @font-face {
   font-family: jakarta;
-  src: url(/font/PlusJakartaSans-VariableFont_wght.ttf);
+  src: url(/public/font/PlusJakartaSans-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: inter;
-  src: url(/font/Inter-VariableFont_opsz\,wght.ttf);
+  src: url(/public/font/Inter-VariableFont_opsz\,wght.ttf);
 }
 
 :root {
