@@ -59,9 +59,9 @@ const App = () => {
         </div>
 
           <div className="bloc1image">
-            <img className="carte-image" src="/public/image/naruto.jpg"/>
-            <img  className="image-milieu" src="/public/image/larabe-du-futur.jpg"/>
-            <img className="carte-image" src="/public/image/onepiece.jpg"/>
+            <img className="carte-image" src="/image/naruto.jpg"/>
+            <img  className="image-milieu" src="/image/larabe-du-futur.jpg"/>
+            <img className="carte-image" src="/image/onepiece.jpg"/>
           </div>
         </section>
 
